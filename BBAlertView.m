@@ -154,7 +154,7 @@
 	CGContextBeginPath (context);
 	CGFloat minx = CGRectGetMinX(rrect), midx = CGRectGetMidX(rrect), 
     maxx = CGRectGetMaxX(rrect);
-	CGFloat miny = CGRectGetMinY(rrect), midy = CGRectGetMidY(rrect), 
+	CGFloat miny = CGRectGetMinY(rrect), midy = CGRectGetMidY(rrect),
     maxy = CGRectGetMaxY(rrect);
 	CGContextMoveToPoint(context, minx, midy);
 	CGContextAddArcToPoint(context, minx, miny, midx, miny, radius);
